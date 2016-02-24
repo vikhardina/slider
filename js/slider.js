@@ -8,7 +8,6 @@ $(document).ready(function() {
 
     $('.slides').css({ width: slideWidthAll});
 
-
     $('.prev').click(function(){
         $('.slides').animate({
             right: '-=540px'
